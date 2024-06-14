@@ -1,0 +1,12 @@
+.box
+{  display: flex;
+     width: fit-content;
+    height: 50px;
+   background-color: white;
+ align-items: center;
+   gap: 80px;
+   padding: 20px;
+   border-radius: 10px;
+   
+
+}
