@@ -32,11 +32,11 @@ function  IncDec()
 
    <div >
    <div className="box">     
-   <button onClick={decrement} className="text-5xl font-bold  ">-</button>
-     <p className="text-3xl font-bold  ">{Number}</p>
- <button onClick={ Increment} className="text-5xl font-bold  ">+</button>
+   <button onClick={decrement} className="text-5xl font-bold  border-r-4 pr-10 border-b-slate-600">-</button>
+     <p className="text-5xl font-bold  ">{Number}</p>
+ <button onClick={ Increment} className="text-5xl font-bold border-l-4 pl-10  border-b-slate-600">+</button>
      </div>
-     <button onClick={Reset} className="text-3xl font-bold my-10 ml-[84px] font-bol bg-slate-500 p-5 rounded-md">Reset</button>
+     <button onClick={Reset} className="text-3xl my-10 ml-[84px] font-bold  bg-slate-300 p-5 rounded-md">Reset</button>
    </div>
 
 
